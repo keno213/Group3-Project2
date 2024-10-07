@@ -1,3 +1,6 @@
+
+//server.js
+
 const express = require('express');
 const exphbs = require('express-handlebars');
 const session = require('express-session');
@@ -42,3 +45,5 @@ sequelize.sync({ force: false }).then(() => {
         console.log(`Server is running on http://localhost:${PORT}`);
     });
 });
+
+
